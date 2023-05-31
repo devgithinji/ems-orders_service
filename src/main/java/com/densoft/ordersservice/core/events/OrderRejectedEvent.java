@@ -4,15 +4,11 @@ import com.densoft.ordersservice.core.models.OrderStatus;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.Value;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class OrderCreatedEvent {
-    private String orderId;
-    private String productId;
-    private String userId;
-    private int quantity;
-    private String addressId;
-    private OrderStatus orderStatus;
+@Value
+public class OrderRejectedEvent {
+    private final String orderId;
+    private final String reason;
+    private final OrderStatus orderStatus = OrderStatus.REJECTED;
 }
