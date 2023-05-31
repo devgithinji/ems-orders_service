@@ -1,4 +1,4 @@
-package com.densoft.ordersservice.rest;
+package com.densoft.ordersservice.comand.rest;
 
 import com.densoft.ordersservice.comand.commands.CreateOrderCommand;
 import com.densoft.ordersservice.core.models.OrderStatus;
