@@ -1,4 +1,4 @@
-package com.densoft.ordersservice.core.models;
+package com.densoft.ems.ordersservice.core.models;
 
 import lombok.Value;
 

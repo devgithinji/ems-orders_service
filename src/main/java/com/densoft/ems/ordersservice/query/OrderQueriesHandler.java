@@ -1,8 +1,8 @@
-package com.densoft.ordersservice.query;
+package com.densoft.ems.ordersservice.query;
 
-import com.densoft.ordersservice.core.data.OrderEntity;
-import com.densoft.ordersservice.core.data.OrdersRepository;
-import com.densoft.ordersservice.core.models.OrderSummary;
+import com.densoft.ems.ordersservice.core.data.OrdersRepository;
+import com.densoft.ems.ordersservice.core.data.OrderEntity;
+import com.densoft.ems.ordersservice.core.models.OrderSummary;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.stereotype.Component;

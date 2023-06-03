@@ -1,6 +1,6 @@
-package com.densoft.ordersservice.core.data;
+package com.densoft.ems.ordersservice.core.data;
 
-import com.densoft.ordersservice.core.models.OrderStatus;
+import com.densoft.ems.ordersservice.core.models.OrderStatus;
 import lombok.Data;
 
 import javax.persistence.*;

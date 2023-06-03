@@ -1,10 +1,10 @@
-package com.densoft.ordersservice.query;
+package com.densoft.ems.ordersservice.query;
 
-import com.densoft.ordersservice.core.data.OrderEntity;
-import com.densoft.ordersservice.core.data.OrdersRepository;
-import com.densoft.ordersservice.core.events.OrderApprovedEvent;
-import com.densoft.ordersservice.core.events.OrderCreatedEvent;
-import com.densoft.ordersservice.core.events.OrderRejectedEvent;
+import com.densoft.ems.ordersservice.core.data.OrderEntity;
+import com.densoft.ems.ordersservice.core.data.OrdersRepository;
+import com.densoft.ems.ordersservice.core.events.OrderApprovedEvent;
+import com.densoft.ems.ordersservice.core.events.OrderCreatedEvent;
+import com.densoft.ems.ordersservice.core.events.OrderRejectedEvent;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.config.ProcessingGroup;
 import org.axonframework.eventhandling.EventHandler;

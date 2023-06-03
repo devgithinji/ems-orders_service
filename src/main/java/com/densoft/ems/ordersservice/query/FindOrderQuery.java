@@ -1,4 +1,4 @@
-package com.densoft.ordersservice.query;
+package com.densoft.ems.ordersservice.query;
 
 import lombok.Value;
 

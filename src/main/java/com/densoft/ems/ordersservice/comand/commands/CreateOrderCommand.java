@@ -1,6 +1,6 @@
-package com.densoft.ordersservice.comand.commands;
+package com.densoft.ems.ordersservice.comand.commands;
 
-import com.densoft.ordersservice.core.models.OrderStatus;
+import com.densoft.ems.ordersservice.core.models.OrderStatus;
 import lombok.Builder;
 import lombok.Data;
 import org.axonframework.modelling.command.TargetAggregateIdentifier;

@@ -1,12 +1,12 @@
-package com.densoft.ordersservice.comand;
+package com.densoft.ems.ordersservice.comand;
 
-import com.densoft.ordersservice.comand.commands.ApproveOrderCommand;
-import com.densoft.ordersservice.comand.commands.CreateOrderCommand;
-import com.densoft.ordersservice.comand.commands.RejectOrderCommand;
-import com.densoft.ordersservice.core.events.OrderApprovedEvent;
-import com.densoft.ordersservice.core.events.OrderCreatedEvent;
-import com.densoft.ordersservice.core.events.OrderRejectedEvent;
-import com.densoft.ordersservice.core.models.OrderStatus;
+import com.densoft.ems.ordersservice.core.events.OrderApprovedEvent;
+import com.densoft.ems.ordersservice.core.events.OrderCreatedEvent;
+import com.densoft.ems.ordersservice.core.events.OrderRejectedEvent;
+import com.densoft.ems.ordersservice.comand.commands.ApproveOrderCommand;
+import com.densoft.ems.ordersservice.comand.commands.CreateOrderCommand;
+import com.densoft.ems.ordersservice.comand.commands.RejectOrderCommand;
+import com.densoft.ems.ordersservice.core.models.OrderStatus;
 import org.axonframework.commandhandling.CommandHandler;
 import org.axonframework.eventsourcing.EventSourcingHandler;
 import org.axonframework.modelling.command.AggregateIdentifier;

@@ -1,9 +1,6 @@
-package com.densoft.ordersservice.core.events;
+package com.densoft.ems.ordersservice.core.events;
 
-import com.densoft.ordersservice.core.models.OrderStatus;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.densoft.ems.ordersservice.core.models.OrderStatus;
 import lombok.Value;
 
 @Value

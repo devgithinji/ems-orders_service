@@ -1,4 +1,4 @@
-package com.densoft.ordersservice.comand.commands;
+package com.densoft.ems.ordersservice.comand.commands;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

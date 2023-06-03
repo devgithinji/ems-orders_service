@@ -1,4 +1,4 @@
-package com.densoft.ordersservice.comand.rest;
+package com.densoft.ems.ordersservice.comand.rest;
 
 import lombok.Data;
 

@@ -1,8 +1,7 @@
-package com.densoft.ordersservice.comand.rest;
+package com.densoft.ems.ordersservice.comand.rest;
 
-import com.densoft.ordersservice.comand.commands.CreateOrderCommand;
-import com.densoft.ordersservice.core.models.OrderStatus;
-import com.densoft.ordersservice.core.models.OrderSummary;
+import com.densoft.ems.ordersservice.comand.commands.CreateOrderCommand;
+import com.densoft.ems.ordersservice.core.models.OrderStatus;
 import lombok.RequiredArgsConstructor;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.web.bind.annotation.PostMapping;

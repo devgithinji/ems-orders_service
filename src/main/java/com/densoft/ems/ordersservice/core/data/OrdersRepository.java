@@ -1,4 +1,4 @@
-package com.densoft.ordersservice.core.data;
+package com.densoft.ems.ordersservice.core.data;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
